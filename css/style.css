@@ -30,11 +30,12 @@ header {
 }
 
 #titolo {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 a {
     color: lightblue;
+    text-decoration: none;
 }
 
 #diritti {
@@ -56,5 +57,31 @@ a {
 .didascalia{
     font-size: 12px;
     font-weight: lighter;
+}
 
+.evidenziato {
+    background-color: greenyellow;
+}
+
+table {
+   width:100%;
+   height:auto;
+   }
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+tr{
+    background-color: lightskyblue;
+}
+
+#riga-bianca {
+    background-color: white;
+}
+
+#testo-footer {
+    color: lightgrey;
+    font-size: 20px;
 }
