@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#pattern-logo{
+    width: 100%;
+    height: 150px;
+    background-image: url('img/pattern.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: lightblue;
+    
+}
+
+#logo {
+    width: 300px;
+    height: 80px;
+}
+
+#titolo {
+    font-size: 50px;
+}
+
+a {
+    color: lightblue;
+}
+
+#diritti {
+    font-size: 20px;
+    color: gray;
+}
+
+#data {
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+
+#immagini-tim {
+    width: 100%;
+
+}
+
+.didascalia{
+    font-size: 12px;
+    font-weight: lighter;
+
+}
