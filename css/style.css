@@ -1,36 +1,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    ;
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
-
 header {
     width: 100%;
-    height: 150px;
-    background-color: lightblue;
-}
-
-#pattern-logo{
-    width: 100%;
-    height: 150px;
-    background-image: url('img/pattern.png');
-    background-size: cover;
+    height: 120px;
+    background-size: contain;
     background-repeat: repeat;
+    background-image: url(../img/pattern.png);
     background-color: lightblue;
-    
 }
 
 #logo {
     width: 300px;
-    height: 80px;
+    height: 150px;
 }
 
 #titolo {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 a {
@@ -49,12 +42,7 @@ a {
     color: gray;
 }
 
-#immagini-tim {
-    width: 100%;
-
-}
-
-.didascalia{
+.didascalia {
     font-size: 12px;
     font-weight: lighter;
 }
@@ -63,17 +51,12 @@ a {
     background-color: greenyellow;
 }
 
-table {
-   width:100%;
-   height:auto;
-   }
-
-th{
+th {
     background-color: blue;
     color: white;
 }
 
-tr{
+tr {
     background-color: lightskyblue;
 }
 
@@ -84,4 +67,24 @@ tr{
 #testo-footer {
     color: lightgrey;
     font-size: 20px;
+}
+
+#monitor {
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+}
+.testo-img {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#graph {
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat; 
 }
